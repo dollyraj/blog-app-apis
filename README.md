@@ -110,3 +110,63 @@ DELETE  /api/comments/{commentId} -->
 **Test them using postman or any other rest client.**
 
 <!-- ### Sample Valid JSON Request Bodies -->
+
+Create User -> /api/users/
+
+```
+{
+        "name": "John",
+        "emailId": "john@gmail.com",
+        "password": "123",
+        "about": "Learning programmer"
+}
+```
+Update User -> /api/users/{userId}
+```
+{
+        "name": "Sakshi",
+        "emailId": "sakshi@gmail.com",
+        "password": "123",
+        "about": "Learning programmer"
+}
+```
+Create category -> /api/categories/
+```
+{
+    "categoryTitle":"Programming Languages",
+    "categoryDescription":"This category contains topic related to programming languages"
+}
+```
+
+Update category -> /api/categories/categoryId
+```
+{
+    "categoryTitle":"Algorithm",
+    "categoryDescription":"This category contains topic related to algorithms"
+}
+```
+Create comment -> /api/post/{postId}/comments
+```
+{
+    "content":"comment 1",
+  
+}
+```
+Create Post -> /api//user/{userId}/category/{categoryId}/posts
+```
+{
+   "title": "What is Java?"
+   "content":"Java is programming language"
+  
+}
+  
+```
+Update Post -> /api//posts/{postId}
+```
+{
+   "title": "What is Java?"
+   "content":"Java is programming language",
+   "imageName":"update.png"
+}
+  
+```
