@@ -36,7 +36,7 @@ The app defines following CRUD APIs.
 |PUT|/api/users/{userId}|Update user|
 |DELETE|/api/users/{userId}|Delete User|
 
-POST  /api/users/
+<!-- POST  /api/users/
 
 GET  /api/users/
 
@@ -44,7 +44,7 @@ GET  /api/users/{userId}
 
 PUT  /api/users/{userId}
 
-DELETE  /api/users/{userId}
+DELETE  /api/users/{userId} -->
 
 ### Category API
 |Method|Url|Description|
@@ -55,7 +55,7 @@ DELETE  /api/users/{userId}
 |PUT|/api/categories/{categoryId}|Update category|
 |DELETE|/api/categories/{categoryId}|Delete category|
 
-POST  /api/categories/
+<!-- POST  /api/categories/
 
 GET  /api/categories/
 
@@ -63,7 +63,7 @@ GET  /api/categories/{categoryId}
 
 PUT  /api/categories/{categoryId}
 
-DELETE  /api/categories/{categoryId}
+DELETE  /api/categories/{categoryId} -->
 
 ### Post API
 
@@ -78,7 +78,7 @@ DELETE  /api/categories/{categoryId}
 |PUT|/api//posts/{postId}|Update post|
 |DELETE|/api//posts/{postId}|Delete post|
 
-POST  /api//user/{userId}/category/{categoryId}/posts
+<!-- POST  /api//user/{userId}/category/{categoryId}/posts
 
 GET  /api/posts
 
@@ -92,7 +92,7 @@ PUT  /api//posts/{postId}
 
 DELETE  /api//posts/{postId}
 
-GET  /api/posts/search/{keyword}
+GET  /api/posts/search/{keyword} -->
 
 ### Comment API
 |Method|Url|Description|
@@ -101,8 +101,12 @@ GET  /api/posts/search/{keyword}
 |GET|/api/post/{postId}/comments|Get comments of a post|
 |DELETE|/api/comments/{commentId}|Delete a comment|
 
-POST  /api/post/{postId}/comments
+<!-- POST  /api/post/{postId}/comments
 
 GET  /api/post/{postId}/comments
 
-DELETE  /api/comments/{commentId}
+DELETE  /api/comments/{commentId} -->
+
+**Test them using postman or any other rest client.**
+
+<!-- ### Sample Valid JSON Request Bodies -->
