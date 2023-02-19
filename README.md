@@ -1,5 +1,5 @@
 # blog-app-apis
-This is a collection of apis containing apis related to blog app
+Build a sample Restful CRUD API for a blog using Spring Boot, Mysql, and JPA.
 
 #### 1.  Clone the application
 `https://github.com/dollyraj/blog-app-apis.git`
